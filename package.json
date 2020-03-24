@@ -1,23 +1,16 @@
 {
-  "name": "100daysofcode_day11",
-  "version": "1.0.0",
-  "main": "app.js",
+  "name": "100daysofcode-day11",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bfly2001/100DaysofCode_Day11.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bfly2001/100DaysofCode_Day11/issues"
-  },
-  "homepage": "https://github.com/bfly2001/100DaysofCode_Day11#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "description": ""
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
 }
